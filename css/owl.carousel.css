@@ -1,0 +1,157 @@
+/* 
+ * 	Core Owl Carousel CSS File
+ *	v1.3.3
+ */
+
+/* clearfix */
+
+#concern-nature-fresh .item{
+	margin:10px;
+	box-shadow: 1px 1px 10px #000;
+	padding-top:15px;
+}
+#concern-nature-fresh .item img{
+	border: 2px solid #ffffff;
+    border-radius: 50%;
+    display: block;
+    height: 150px;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px;
+}
+
+#recipes-nature-fresh .item{
+	margin:10px;
+	padding:15px 15px 25px 15px;
+	border:1px solid #b9cdad;
+	border-bottom:4px solid #b9cdad;
+}
+#recipes-nature-fresh .item img{
+	max-height:100%;
+    display: block;
+    width: 100%;
+}
+#recipes-nature-fresh .owl-page span{
+	background-color:#ffb400!important;
+	border-radius:0px!important;
+	}
+#recipes-nature-fresh .active span{
+	background-color:#429712!important;
+	border-radius:0px!important;
+	}
+#nurtion-nature-fresh .owl-page span{
+	background-color:#869791!important;
+	border-radius:0px!important;
+	}
+#nurtion-nature-fresh .item{
+	width:100%;
+	}
+#nurtion-nature-fresh .active span{
+	background-color:#78ac14!important;
+	border-radius:0px!important;
+	}
+.owl-carousel .owl-wrapper:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+#concern-nature-fresh .item span{
+	text-align:center;
+	display:block;
+	padding:10px;
+	min-height:64px;
+	font-size:16px;
+	color:#383838;
+	background-color:#fff;
+	margin-top:12px;
+	}
+
+/* display none until init */
+.owl-carousel{
+	display: none;
+	position: relative;
+	width: 100%;
+	-ms-touch-action: pan-y;
+}
+.owl-carousel .owl-wrapper{
+	display: none;
+	position: relative;
+	-webkit-transform: translate3d(0px, 0px, 0px);
+}
+.owl-carousel .owl-wrapper-outer{
+	overflow: hidden;
+	position: relative;
+	width: 100%;
+}
+.owl-carousel .owl-wrapper-outer.autoHeight{
+	-webkit-transition: height 500ms ease-in-out;
+	-moz-transition: height 500ms ease-in-out;
+	-ms-transition: height 500ms ease-in-out;
+	-o-transition: height 500ms ease-in-out;
+	transition: height 500ms ease-in-out;
+}
+	
+.owl-carousel .owl-item{
+	float: left;
+}
+.owl-controls .owl-page,
+.owl-controls .owl-buttons div{
+	cursor: pointer;
+	z-index:1030;
+}
+.owl-controls {
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+/* mouse grab icon */
+.grabbing { 
+    cursor:url(grabbing.png) 8 8, move;
+}
+
+/* fix */
+.owl-carousel  .owl-wrapper,
+.owl-carousel  .owl-item{
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility:    hidden;
+	-ms-backface-visibility:     hidden;
+  -webkit-transform: translate3d(0,0,0);
+  -moz-transform: translate3d(0,0,0);
+  -ms-transform: translate3d(0,0,0);
+}
+
+.owl-prev{
+	background: url("../images/prev.png") no-repeat scroll left top rgba(0, 0, 0, 0) !important;
+    height: 73px;
+    left: -60px;
+    opacity: 1 !important;
+    position: absolute;
+    text-indent: -9999px;
+    top: 35%;
+    width: 41px;
+	}
+.owl-prev:hover{
+	opacity:0.5!important;
+	}
+.owl-next{
+	background: url("../images/next.png") no-repeat scroll left top rgba(0, 0, 0, 0) !important;
+    height: 73px;
+    right: -60px;
+    opacity: 1 !important;
+    position: absolute;
+    text-indent: -9999px;
+    top: 35%;
+    width: 41px;
+	}
+.owl-next:hover{
+	opacity:0.5!important;
+	}
+

@@ -1,0 +1,25 @@
+.processes {
+	overflow: hidden;
+}
+.processes h3 {
+	font-size: 18px;
+	margin: 0;
+	margin-top: 5px;
+}
+.processes img {
+	width: 60px;
+}
+#processes .container {
+	cursor:all-scroll;
+	-ms-touch-action: pan-y;
+}
+
+/*.processes .processItem:after{
+	display: block;
+	content: " - - - - - - >";
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	background-color: transparent;
+	margin:10px 5px 0 10px;
+}*/

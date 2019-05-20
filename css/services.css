@@ -1,0 +1,122 @@
+.service-item {
+    margin: 0;
+    border: 1px dotted #3aa8db;
+    overflow: hidden;
+    position: relative;
+}
+.services .fa-stack {
+	width: 140px;
+}
+span.fa-stack.fa-4x {
+	background-color: #3aa8db;
+	margin: 50px 0;
+}
+.services .fa-stack-2x {
+	opacity: .3;
+	color: #fff;
+	opacity: 0;
+	transform: scale3d(0, 0, 0);
+}
+span.fa-stack.fa-4x:before {
+	border-bottom: 30px solid #3aa8db;
+	content: "";
+    position: absolute;
+    top: -30px;
+    left: 0;
+    width: 100%;
+    border-left: 70px solid transparent;
+    border-right: 70px solid transparent;
+    z-index: 24;
+}
+span.fa-stack.fa-4x:after {
+	border-top: 30px solid #3aa8db;
+	content: "";
+    position: absolute;
+    bottom: -30px;
+    left: 0;
+    width: 100%;
+    border-left: 70px solid transparent;
+    border-right: 70px solid transparent;
+    z-index: 24;
+}
+.services .text-primary {
+    color: #fff;
+    font-size: 40px;
+}
+.service-details{
+    background-color: #f0f0f0;
+    position: relative;
+    margin-top: 0px;
+
+    -webkit-transition-duration: 0.3s;
+    -moz-transition-duration: 0.3s;
+    -o-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+
+    overflow: hidden;
+}
+.service-text {
+	position: relative;
+	z-index: 300;
+}
+.services .service-details h4{
+	margin: 0;
+    padding-top: 40px;
+    padding-bottom: 10px;
+    font-weight: 900;
+    font-size: 18px;
+}
+.services .service-details p{
+	margin: 0;
+    padding-bottom: 40px;
+}
+
+.fa-stack .text-primary, .icon-bg {
+
+    -webkit-transition-duration: 0.8s;
+    -moz-transition-duration: 0.8s;
+    -o-transition-duration: 0.8s;
+    transition-duration: 0.8s;
+    -webkit-transition-property: -webkit-transform;
+    -moz-transition-property: -moz-transform;
+    -o-transition-property: -o-transform;
+    transition-property: transform;
+
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+}
+.services .icon-bg {
+	color: rgba(255, 255, 255, 1);
+	font-size: 140px;
+	position: absolute;
+	right: -25px;
+	bottom: -25px;
+	opacity: .5;
+	display: block;
+}
+.services .service-item:hover .fa{
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
+
+.services .service-item:hover .service-details{
+    background-color: #3aa8db;
+    color: #fff;
+}
+.services .service-item:hover .icon-bg {
+	opacity: .3;
+	display: block;
+}
+.services .service-item:hover .fa-stack-2x{	
+	animation: zoomInOut .4s 0s both ease-in;
+	z-index: 25;	
+}
+@keyframes zoomInOut {
+	0%{	opacity: 0; transform: scale3d(0, 0, 0);	}
+	40% {	opacity: .5;	transform: scale3d(1, 1, 1);	}
+	100% {		opacity: 0;		transform: scale3d(1.8, 1.8, 1.8);}
+}

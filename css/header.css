@@ -1,0 +1,50 @@
+header {
+	color: #fff;
+	overflow: hidden;
+}
+header span {
+	color: #3aa5db;
+}
+.headerOverlay {
+	/*background-color: rgba(57, 167, 219, 0.58);*/
+	background-color: rgba(0, 0, 0, 0.58);
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 1 !important;
+}
+.text-vertical-center {
+	position: relative;
+	z-index: 2;
+}
+.btn-water {
+	background-color: transparent;
+    border-radius: 2px;
+    border: .1em solid #6e6d6c;
+    font-size: 16px;
+    color: #fff;
+    transition: all .3s ease-out;
+    padding: 10px 20px;
+}
+.btn-water:hover {
+	background-color: #3aa8db;
+    border: 1px solid #3aa8db;
+    color: #fff;
+}
+
+header .fa-angle-down {
+    position: absolute;
+    left: 50%;
+    bottom: 50px;
+    color: #fff;
+    display: inline-block;
+    width: 24px;
+    margin-left: -12px;
+    font-size: 24px;
+    line-height: 24px;
+    z-index: 999;
+    -webkit-animation: bounce 3000ms infinite;
+    animation: bounce 3000ms infinite;
+}

@@ -1,0 +1,47 @@
+.about ul {
+	position: relative;
+	display: block;
+	text-decoration: none;
+	list-style: none;
+}
+.profile-pic img {
+	border: 1px solid #3aa8db;
+    border-radius: 2px;
+}
+
+.about a#download-CV, .about a#hire-me {
+    margin-right: 5px;
+    transition: all .3s ease-out;
+}
+.about a#download-CV:hover, .about a#hire-me:hover {
+    background-color: transparent;
+    border: 1px solid #3aa8db;
+    color: #3aa8db;
+}
+
+.media {
+	display: inline-flex;
+}
+.media .mr-3{
+	font-size: 50px;
+	width: 64px;
+	height: 64px;
+}
+.media .media-body{
+	padding-left: 15px;
+}
+.media-body ul{
+	padding-left: 0;
+}
+.media-body ul li:first-child {
+    font-weight: 900;
+}
+
+.media-body .icon-before-and-after {
+    margin-right: 8px;
+    margin-left: 0;
+}
+.doubleClick{
+	/*height: ;*/
+	position: relative;
+}

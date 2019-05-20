@@ -1,0 +1,161 @@
+
+/*========= Mixitup button Start ====================================*/
+    .container-fluid {    padding: 0;    }
+    header img {    width: 100%;    }
+    .mixitup-masonry .heading{    text-align: center;  }
+    .filter-items {
+        margin-top: 0;
+        margin-bottom: 30px;
+    }
+    .filter-items {    text-align: center; padding-left: 0;}
+    .filter-items li{
+/*        display: inline-block;
+        font-size: 20px;
+        font-weight: 400;
+        letter-spacing: 1px;
+        background-color: transparent;
+        border: none;
+        border-radius: 0;
+        margin: 0;
+        text-align: center;*/
+
+        position: relative;
+        display: inline-block;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        color: #2b2b2b;
+        font-size: 18px;
+    }
+    .filter-items li a{
+/*        border: 1px solid #337ab7;
+        border-radius: 3px;
+        font-family: 'PlumpMT';
+        text-decoration: none;
+        color: #337ab7;
+        padding: 12px 30px;
+        margin: 0;*/
+
+        display: block;
+        border: 1px solid #d5d5d5;
+        color: #2b2b2b;
+        /*font-family: 'Raleway', sans-serif;*/
+        font-weight: 700;
+        text-decoration: none;
+        padding: 10px 20px;
+        border-radius: 2px;
+
+        -webkit-transition: all 0.3s ease-in-out;
+        -moz-transition: all 0.3s ease-in-out;
+        -o-transition: all 0.3s ease-in-out;
+        -ms-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out;
+
+    }
+    .filter-items li :hover, .filter-items li :focus, .filter-items li a:active, .filter-items li a.active{
+        color: #fff;
+        background-color: #3aa8db;
+        border-color: #3aa8db;
+    }
+
+    .grid-item {
+        /*margin-bottom: 20px;*/
+        overflow: hidden;
+        padding: 0;
+        margin: 0;
+    }
+    .main-col.col-lg-12.col-md-12.col-sm-12.col-xs-12 {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+/*======  Mixitup button End==================*/
+
+
+/*======  Portfolio Hover Start ==================*/
+.folio-item {   position: relative;  overflow: hidden;  width: 100%  }
+#portfolio .folio-item:hover .folio-image {
+    -webkit-transform: scale(1.5) rotate(-15deg);
+    transform: scale(1.5) rotate(-15deg);
+}
+.folio-image, .folio-overview .folio-expand {
+    -webkit-transition: all 0.8s ease-in-out;
+    transition: all 0.8s ease-in-out;
+}
+.folio-image img {
+    width: 100%;
+}
+
+#portfolio .overlay {
+    background-color: #000;
+    color: #fff;
+    left: 0;
+    right: 0;
+    bottom: -100%;
+    height: 0;
+    position: absolute;
+    text-align: center;
+    opacity: 0;
+    -webkit-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+.overlay .overlay-content {
+    display: table;
+    height: 100%;
+    width: 100%;
+}
+.overlay .overlay-text {
+    display: table-cell;
+    vertical-align: middle;
+}
+.overlay .folio-info {
+    opacity: 0;
+    margin-bottom: 75px;
+    margin-top: -75px;
+    -webkit-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+}
+.overlay .folio-info h3 {
+    margin-top: 0;
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 10px;
+    font-weight: 500;
+    line-height: 1.1;
+}
+.folio-overview .folio-expand {
+    margin-top: -500px;
+    margin-left: -500px;
+}
+.folio-overview a {
+    font-size: 18px;
+    color: #333;
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+    border-radius: 50%;
+    background-color: #fff;
+    display: inline-block;
+    margin-top: 20px;
+    margin-right: 5px;
+}
+
+
+#portfolio .folio-item:hover .overlay {
+    opacity: 0.7;
+    bottom: 0;
+    height: 100%;
+}
+#portfolio .folio-item:hover .overlay .folio-info {
+    opacity: 1;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+#portfolio .folio-item:hover .folio-overview .folio-expand {
+    margin-top: 0;
+    margin-left: 0;
+}
+
+.folio-overview a:hover {
+    color: #fff;
+    background-color: #3aa5db;
+}
