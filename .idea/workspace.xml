@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="93322ac9-2f0f-4e94-97e7-465afb167b63" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-    </list>
+    <list default="true" id="93322ac9-2f0f-4e94-97e7-465afb167b63" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +44,7 @@
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="189">
-              <caret line="776" column="102" lean-forward="true" selection-start-line="776" selection-start-column="102" selection-end-line="776" selection-end-column="118" />
+              <caret line="776" column="118" selection-start-line="776" selection-start-column="118" selection-end-line="776" selection-end-column="118" />
               <folding>
                 <element signature="e#8357#8363#0" expanded="true" />
                 <element signature="e#8363#8369#0" expanded="true" />
@@ -89,7 +87,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="980" />
     <option name="y" value="1" />
     <option name="width" value="948" />
@@ -152,15 +150,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1558330330750</updated>
-      <workItem from="1558330331901" duration="14219000" />
+      <workItem from="1558330331901" duration="14708000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14219000" />
+    <option name="totallyTimeSpent" value="14708000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1066" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
@@ -194,7 +192,7 @@
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
-          <caret line="776" column="102" lean-forward="true" selection-start-line="776" selection-start-column="102" selection-end-line="776" selection-end-column="118" />
+          <caret line="776" column="118" selection-start-line="776" selection-start-column="118" selection-end-line="776" selection-end-column="118" />
           <folding>
             <element signature="e#8357#8363#0" expanded="true" />
             <element signature="e#8363#8369#0" expanded="true" />
